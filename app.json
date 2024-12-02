@@ -16,7 +16,7 @@
 	  "ANTICALL":
     {
       "description":"Enter yes for your bot to reject calls",
-      "value":"yes",
+      "value":"no",
       "required":false
     },
 	    "AUTO_REACT_STATUS":
@@ -40,21 +40,21 @@
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
     ,
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"LUCKY_MD",
+      "value":"Mistah X",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/98d70v.mp4",
+      "value":"https://j.top4top.io/s_324511lst0.jpg",
       "required":false
        
      },
@@ -87,30 +87,30 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "fredietech"
+    "value": "Alvin M."
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255752593977"
+    "value": "254104916091"
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "5"
+    "value": "1"
   },
   "STARTING_BOT_MESSAGE":
   {
     "description": "if you don't want startting-bot-message put no else put yes",
     "required": true,
-    "value": "no"
+    "value": "yes"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"2",
+    "value":"3",
     "required": false
 	  
   },
@@ -121,7 +121,7 @@
     },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "no",
+    "value": "yes",
         "required": false
   }
   },
